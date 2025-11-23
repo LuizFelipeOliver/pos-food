@@ -1,3 +1,10 @@
 spring:
   application:
     name: pos-food
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mydatabase
+    username: myuser
+    password: secret
+  jpa:
+    ddl-auto: update
+    show-sql: true
